@@ -1,5 +1,4 @@
 from logger.LogManager import logger
-from test import test_log_from_test
 import time
 
 def test_log_funcl1():
@@ -8,8 +7,6 @@ def test_log_funcl1():
 logger.info("Test message")
 
 test_log_funcl1()
-
-test_log_from_test()
 
 start_t = time.time()
 logger.start_func("logging")
