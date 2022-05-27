@@ -1,6 +1,6 @@
 import logging
 import pandas as pd
-from utils.BaseDBLogger import BaseDBLogHandler
+from logger.BaseDBLogger import BaseDBLogHandler
 
 class CSVLogHandler(BaseDBLogHandler):
 

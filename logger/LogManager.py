@@ -1,5 +1,5 @@
 import logging
-from utils.CSVLogHandler import CSVLogHandler
+from logger.CSVLogHandler import CSVLogHandler
 
 
 def addLoggingLevel(levelName, levelNum):

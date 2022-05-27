@@ -1,4 +1,4 @@
-from utils.LogManager import logger
+from logger.LogManager import logger
 from test import test_log_from_test
 import time
 
